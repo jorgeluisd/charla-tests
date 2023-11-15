@@ -7,7 +7,7 @@ const Message = () => {
   return <p>Hello from the message component!</p>
 }
 
-function App() {
+export const App = () => {
   const [showMessage, setShowMessage] = useState<boolean>(false);
 
   return (
