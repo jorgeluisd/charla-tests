@@ -30,7 +30,7 @@ module.exports = {
     '.+\\.(svg|css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
   },
   transformIgnorePatterns: [
-    // '/node_modules/(?!(@cencosud-ds/bigbang)).+\\.(jsx?|js?)$',
+    // '/node_modules/(?!(@external/library)).+\\.(jsx?|js?)$',
   ],
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$', // Una regex que define qué archivos se considerarán archivos de prueba para Jest.
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'], // Las extensiones de archivo que Jest reconocerá.
